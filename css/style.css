@@ -1,0 +1,47 @@
+section {
+  padding: 70px 0;
+}
+nav {
+  background-color: #8d8d8d;
+  opacity: 0.7;
+}
+.home{
+    margin-top: 60px;
+}
+nav ul li a {
+  text-transform: uppercase;
+}
+.home-img {
+  width: 100%;
+}
+.message {
+  background: yellow;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+a#right {
+  margin-top: -47px;
+  font-size: 14px;
+  color: #8d8d8d;
+  text-transform: uppercase;
+}
+.images-box img {
+  width: 100%;
+}
+.height {
+  height: 340px;
+  padding-bottom: 20px;
+}
+.top {
+  margin-top: -70px;
+  height: 292px;
+}
+#show-btn {
+  display: block;
+  width: 13%;
+  margin: 15px auto;
+}
+.icon img {
+  width: 100px;
+}
