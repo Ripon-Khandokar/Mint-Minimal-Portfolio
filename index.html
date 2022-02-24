@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<!-- header-section-start  -->
-    <header>
+    <!-- header-section-start  -->
+    <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light container fixed-top">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="mint" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,24 +29,24 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
 
-                        <a class="nav-link active" aria-current="page" href="#">work</a>
+                        <a class="nav-link active" aria-current="page" href="#work">work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
+                        <a class="nav-link" href="#about">about</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">blog</a>
+                        <a class="nav-link" href="#blog">blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact us</a>
+                        <a class="nav-link" href="#contact-us">contact us</a>
                     </li>
             </div>
         </nav>
     </header>
-<!-- end-section-start  -->
+    <!-- end-section-start  -->
 
-<!-- start-home-section  -->
+    <!-- start-home-section  -->
     <section class="home container">
         <div class="row">
             <div class="col-md-6">
@@ -66,10 +67,10 @@
             </div>
         </div>
     </section>
-<!-- end-home-section  -->
+    <!-- end-home-section  -->
 
-<!-- start-categories-section  -->
-    <section class="categories container">
+    <!-- start-categories-section  -->
+    <section class="categories container" id="work">
         <div class="row">
             <div class="col-md-12">
                 <h1>WORK SHOWCASE.</h1>
@@ -138,13 +139,13 @@
         </div>
         <button class="btn message" id="show-btn">show me more</button>
     </section>
-<!-- end-categories-section  -->
+    <!-- end-categories-section  -->
 
-<!-- start-icon-section  -->
-    <section class="icon container">
+    <!-- start-icon-section  -->
+    <section class="icon container" id="about">
         <div class="row">
             <div class="col-md-2 col-sm-4 ">
-                <img src="images/i-1.png" alt="">
+                <img class="icon-1" src="images/i-1.png" alt="">
             </div>
             <div class="col-md-2 col-sm-4">
                 <img src="images/i-2.png" alt="">
@@ -163,12 +164,120 @@
             </div>
         </div>
     </section>
-<!-- end-icon-section  -->
+    <!-- end-icon-section  -->
+    <section class="about container" id="about">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>about us</h2>
+                <p class="about-deatails">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reiciendis
+                    accusantium assumenda blanditiis error mollitia unde sunt ex odio? Quo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bg-img" style="background-image: url(images/colorful.jpg);">
+                    <div class="bg-img-caption">
+                        <h4>luku style wall</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bg-img" style="background-image: url(images/colorful.jpg);">
+                    <div class="bg-img-caption">
+                        <h4>luku style wall</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="little-about">
+                    <h3>little about</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi possimus unde tempora
+                        doloribus quis aliquid magnam impedit officiis provident neque!</p>
+                    <a class="message" href="#">red more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- start-blog-section  -->
+
+    <section class="blog container" id="blog">
+        <div class="row">
+            <div class="com-md-12">
+                <h2>our blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, dolores!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/images.jpg" alt="">
+                <div class="img-caption">
+                    <h3>super caption</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quam dolorum a dicta nesciunt aut
+                        mollitia voluptates impedit officiis placeat.</p>
+                    <small>24 February 2022</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/images.jpg" alt="">
+                <div class="img-caption">
+                    <h3>super caption</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quam dolorum a dicta nesciunt aut
+                        mollitia voluptates impedit officiis placeat.</p>
+                    <small>24 February 2022</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/images.jpg" alt="">
+                <div class="img-caption">
+                    <h3>super caption</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quam dolorum a dicta nesciunt aut
+                        mollitia voluptates impedit officiis placeat.</p>
+                    <small>24 February 2022</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end-blog-section  -->
+
+    <section class="contact-us container" id="contact-us">
+        <h2>contact us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, iusto provident? Iusto soluta aperiam
+            nostrum odit harum similique architecto voluptatum.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <h5>send us message</h5>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="E-mail">
+                    <input class="msg" type="text" placeholder="Message">
+                    <button class="btn message">send message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="images/istockphoto-1213495447-170667a.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
 
 
-
-
+    <!-- start-footer-section  -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/footer-logo.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <a href="#header">back to top</a>
+            </div>
+        </div>
+    </footer>
+    <!-- end-footer-section  -->
 
 
 
